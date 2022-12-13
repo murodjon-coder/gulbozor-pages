@@ -1,0 +1,33 @@
+* , *::before , *::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: $main-font;
+    background-color: $main-background-color;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul , ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    vertical-align: middle;
+}
+
+.visually-hidden{
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
